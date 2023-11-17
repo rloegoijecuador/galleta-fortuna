@@ -17,8 +17,8 @@ function App() {
   const [ bgApp ,setBgApp] = useState(getRandomFroArr(bgArr))
   
   const objStyle = {
-    backgroundImage:` url('../public/IMAGEN5.jpg')`
-  }
+    backgroundImage:` url('https://carorocco.com/wp-content/uploads/2020/12/GALLETAS-DE-LA-FORTUNA-VERTICAL.jpg')`
+    }
  
   
   return (
