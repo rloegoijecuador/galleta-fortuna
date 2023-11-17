@@ -1,0 +1,44 @@
+.app{
+    background-image: url('../public/IMAGEN-1.jfif');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.app__title{
+    color:black;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.app__card{
+    background-color:black;
+    color: white;
+    padding: auto;
+    border-radius: 1em;
+    width:100%;
+    max-width: 400px;
+
+}
+
+.app__btn{
+    background-color:white;
+    color: blue;
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
+    font-size: 1.1rem;
+    border-radius: 2em;
+    transform: font-size 100ms ease;
+
+}
+
+.app__btn:hover{
+    font-size: 1.1rem;
+
+}
